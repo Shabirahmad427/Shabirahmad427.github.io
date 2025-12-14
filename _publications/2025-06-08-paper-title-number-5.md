@@ -1,13 +1,11 @@
 ---
-title: "Paper Title Number 5, with math $$E=mc^2$$"
+title: "Modeling novel putative drugs and vaccine candidates against tick-borne pathogens: a subtractive proteomics approach"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: manuscripts
+permalink: /publication/tick-borne-pathogens-2020
+excerpt: "A subtractive proteomics approach to identify novel drug targets and vaccine candidates against tick-borne pathogens."
+date: 2020-01-01
+venue: "Veterinary Sciences"
+paperurl: "https://doi.org/10.3390/vetsci7030129"
+citation: "Ali, A., Ahmad, S., Wadood, A., et al. (2020). <i>Modeling novel putative drugs and vaccine candidates against tick-borne pathogens</i>. Veterinary Sciences, 7(3), 129."
 ---
-
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
