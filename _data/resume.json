@@ -60,6 +60,23 @@
     }
   ],
 
+    "teaching": [
+    {
+      "course": "Biology",
+      "institution": "Peace Group of Schools and Colleges",
+      "date": "2021–2022",
+      "role": "Lecturer",
+      "description": "Served as a lecturer of biology for one academic year, teaching fundamental concepts in molecular biology, genetics, and cell biology."
+    },
+    {
+      "course": "Basic Bioinformatics",
+      "institution": "Undergraduate Program",
+      "date": "2020–2021",
+      "role": "Instructor",
+      "description": "Taught an undergraduate-level introductory course in bioinformatics, covering sequence analysis, biological databases, and basic computational biology workflows."
+    }
+  ],
+
   "publications": [
     {
       "name": "Subtractive proteomics and reverse-vaccinology approaches for novel drug target identification and chimeric vaccine development against Bartonella henselae",
