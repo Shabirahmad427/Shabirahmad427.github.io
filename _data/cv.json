@@ -1,152 +1,100 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Shabir Ahmad",
+    "email": "shabirjan427@gmail.com",
+    "website": "https://shabirahmad427.github.io",
+    "summary": "PhD researcher in computational enzymology and molecular dynamics, with experience in structural bioinformatics, molecular modeling, and in silico drug and vaccine target identification.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Campinas",
+      "countryCode": "BR"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=71mT3GcAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-6782-8713"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "url": "https://github.com/Shabirahmad427"
       }
     ]
   },
-  "work": [],
+
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "institution": "University of Campinas (UNICAMP)",
+      "area": "PhD in Physical Chemistry (Theoretical)",
+      "endDate": "Present",
+      "location": "Campinas, Brazil"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "institution": "Federal University of Rio Grande do Sul (UFRGS)",
+      "area": "MSc in Cell and Molecular Biology",
+      "endDate": "2022",
+      "location": "Porto Alegre, Brazil"
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "Abdul Wali Khan University Mardan",
+      "area": "BSc in Zoology",
+      "endDate": "2019",
+      "location": "Mardan, Pakistan"
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
+
+  "work": [
+    {
+      "company": "Structural Bioinformatics Group, UFRGS",
+      "position": "Research Assistant",
+      "endDate": "2022",
+      "summary": "Molecular modeling, structural bioinformatics, and computational analysis of biological systems."
+    },
+    {
+      "company": "Laboratory of Tick-Borne Diseases and One Health",
+      "position": "Graduate Researcher",
+      "endDate": "2019",
+      "summary": "In silico identification of drug targets and vaccine candidates using subtractive proteomics."
+    }
+  ],
+
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Subtractive proteomics and reverse-vaccinology approaches for novel drug target identification and chimeric vaccine development against Bartonella henselae",
+      "publisher": "Bioengineering",
+      "releaseDate": "2024",
+      "summary": "Computational identification of novel drug targets and vaccine candidates."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Modeling Novel Putative Drugs and Vaccine Candidates against Tick-Borne Pathogens: A Subtractive Proteomics Approach",
+      "publisher": "MDPI",
+      "releaseDate": "2020"
     }
   ],
+
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Molecular modeling of enzymes active on lignocellulosic substrates",
+      "event": "Federal University of ABC",
+      "date": "2022",
+      "location": "Santo André, Brazil"
     }
   ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
+
+  "skills": [
+    { "name": "Molecular Dynamics (AMBER, GROMACS)" },
+    { "name": "Structural Bioinformatics" },
+    { "name": "Computational Enzymology" },
+    { "name": "Python, Bash" },
+    { "name": "HPC & GPU Computing" }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
+
+  "languages": [
+    { "language": "English", "fluency": "C2" },
+    { "language": "Urdu", "fluency": "C2" },
+    { "language": "Pashto", "fluency": "C2" },
+    { "language": "Portuguese", "fluency": "A1" }
   ]
 }
