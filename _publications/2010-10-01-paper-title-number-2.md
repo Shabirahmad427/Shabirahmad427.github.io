@@ -1,14 +1,11 @@
 ---
-title: "Paper Title Number 2"
+title: "In silico identification of drug targets and vaccine candidates against Bartonella quintana: a subtractive proteomics approach"
 collection: publications
 category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/bartonella-quintana-2024
+excerpt: "Computational identification of drug targets and vaccine candidates against Bartonella quintana using subtractive proteomics."
+date: 2024-01-01
+venue: "Memórias do Instituto Oswaldo Cruz"
+paperurl: "https://doi.org/10.1590/0074-02760230040"
+citation: "Ahmad, S., Verli, H. (2024). <i>In silico identification of drug targets and vaccine candidates against Bartonella quintana</i>. Memórias do Instituto Oswaldo Cruz, 119, e230040."
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
