@@ -19,7 +19,7 @@ repository               : "Shabirahmad427/Shabirahmad427.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/profile.jpeg"
+  avatar           : "/images/profile.jpg"
   name             : "Shabir Ahmad"
   bio              : "PhD researcher in computational enzymology and molecular dynamics"
   location         : "Campinas, Brazil"
