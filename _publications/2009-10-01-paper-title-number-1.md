@@ -1,5 +1,5 @@
 ---
-title: "Subtractive proteomics and reverse-vaccinology approaches for novel drug target identification and chimeric vaccine development against Bartonella henselae"
+title: "Subtractive Proteomics and Reverse-Vaccinology Approaches for Novel Drug Target Identification and Chimeric Vaccine Development against Bartonella henselae Strain Houston-1"
 collection: publications
 category: manuscripts
 permalink: /publication/bartonella-henselae-2024
