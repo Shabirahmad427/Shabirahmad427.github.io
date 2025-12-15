@@ -7,14 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a **PhD researcher in Physical Chemistry (Theoretical)** at the **University of Campinas (UNICAMP), Brazil**, with a research focus on **computational enzymology and molecular dynamics**.
+I am a PhD researcher in Physical Chemistry (Theoretical) at the University of Campinas (UNICAMP), Brazil, with a research focus on computational enzymology and molecular dynamics simulations.
 
-My work investigates the **structure–function relationships of glycoside hydrolase enzymes**, combining large-scale molecular dynamics simulations with enhanced sampling and free-energy methods to understand **enzyme catalysis, loop dynamics, and substrate recognition**.
+My work investigates the **structure function relationships of glycoside hydrolase enzymes**, combining large-scale molecular dynamics simulations with enhanced sampling and free-energy methods to understand **enzyme catalysis, loop dynamics, and substrate recognition**.
 
 ### Research interests
 - Molecular dynamics simulations of enzymes  
 - Computational enzymology and catalysis  
-- Free energy landscapes and enhanced sampling (umbrella sampling, MSMs)  
+- Free energy landscapes and enhanced sampling  
 - QM/MM simulations  
 - Structural bioinformatics and trajectory analysis  
 
