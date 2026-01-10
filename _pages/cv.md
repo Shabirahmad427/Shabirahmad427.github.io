@@ -11,15 +11,15 @@ redirect_from:
 
 **PhD in Physical Chemistry (Theoretical)**  
 University of Campinas (UNICAMP), Brazil  
-*Year – Present*
+*2022 – Present*
 
-**MSc in Chemistry**  
-University Name  
-*Year – Year*
+**MSc in Cellular and Molecular Biology**  
+Federal University of Rio Grande do Sul (UFRGS), Brazil  
+*2020 – 2022*
 
-**BSc in Chemistry**  
-University Name  
-*Year – Year*
+**BSc in Zoology**  
+Abdul Wali Khan University Mardan, Pakistan 
+*2015 – 2019*
 
 ---
 
