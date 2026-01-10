@@ -1,15 +1,15 @@
 ---
-title: "Conference Proceedings Talk at CONESUL 2024"
+title: "Poster Presentation at II CONESUL Symposium on Biomolecular Simulation"
 date: 2024-10-01
 layout: talk
-type: "Conference Proceedings Talk"
-venue: "CONESUL 2024 — Congresso Sul-Americano de Química"
-location: "Argentina"
+type: "Poster Presentation"
+venue: "II CONESUL Symposium on Biomolecular Simulation"
+location: "South America"
 ---
 
-**CONESUL 2024** is a South American scientific conference bringing together researchers from chemistry, chemical physics, theoretical and computational chemistry, and related interdisciplinary areas across the CONESUL region.
+The **II CONESUL Symposium on Biomolecular Simulation** is a South American meeting focused on molecular dynamics and biomolecular simulation methods applied to biological systems, bringing together researchers from Brazil, Argentina, Uruguay, and neighboring countries.
 
 **Presenter:** Shabir Ahmad  
 
 **Abstract:**  
-This conference proceedings talk presented recent research results in theoretical and computational chemistry, focusing on molecular simulations, methodological developments, and their application to complex chemical and biological systems. The contribution was published and presented as part of the official **CONESUL 2024 conference proceedings**, highlighting collaborative scientific exchange within the South American chemistry community.
+This poster presented molecular dynamics simulations of a family of **glycoside hydrolase enzymes**, focusing on how enzyme structure and dynamics influence catalytic function. The work highlighted how biomolecular simulation techniques can be used to investigate enzyme–substrate interactions and conformational flexibility in carbohydrate-active enzymes. The contribution was presented as part of the official **II CONESUL Symposium on Biomolecular Simulation** poster session.
