@@ -18,7 +18,7 @@ Federal University of Rio Grande do Sul (UFRGS), Brazil
 *2020 – 2022*
 
 **BSc in Zoology**  
-Abdul Wali Khan University Mardan (AWKUM), Pakistan 
+Abdul Wali Khan University Mardan (AWKUM), Pakistan  
 *2015 – 2019*
 
 ---
