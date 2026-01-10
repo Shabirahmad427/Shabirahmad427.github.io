@@ -1,20 +1,10 @@
 ---
 title: "Introduction to Molecular Dynamics Simulations"
-collection: talks
-type: "Invited Talk"
-permalink: /talks/md-simulation-jwu-2024
-venue: "Jinnah Women University"
 date: 2024-02-07
+layout: talk
+type: "Invited Talk"
+venue: "Jinnah Women University"
 location: "Karachi, Pakistan"
 ---
 
-I delivered an in-person invited talk on **molecular dynamics (MD) simulations**
-at **Jinnah Women University, Karachi, Pakistan**.
-
-The presentation introduced the fundamental concepts of molecular dynamics,
-including simulation workflows, force fields, and trajectory analysis, and
-highlighted the role of MD simulations in modern chemical and biomolecular
-research.
-
-The event was organized in collaboration with the **International Basic and
-Applied Research Society (IBRAS)**.
+I delivered an in-person invited talk on molecular dynamics (MD) simulations at Jinnah Women University, Karachi, Pakistan.
