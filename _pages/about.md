@@ -14,11 +14,9 @@ My work investigates the **structure function relationships of glycoside hydrola
 ### Research interests
 - Molecular dynamics simulations of enzymes  
 - Computational enzymology and catalysis  
-- Free energy landscapes and enhanced sampling  
-- QM/MM simulations  
-- Structural bioinformatics and trajectory analysis  
+- Free energy landscapes and enhanced sampling   
 
-I have hands-on experience with **AMBER, GROMACS, CPPTRAJ, PyEMMA**, and high-performance computing environments, developing **reproducible, automated workflows** for large simulation datasets.
+I have hands-on experience with **AMBER, GROMACS, CPPTRAJ and high-performance computing environments, developing **reproducible, automated workflows** for large simulation datasets.
 
 This website presents my **publications, talks, research projects, and CV**, and serves as a central hub for my academic activities.
 
