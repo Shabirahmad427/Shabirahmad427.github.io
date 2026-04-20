@@ -1,1 +1,553 @@
+/* =============================================================
+   Shabir Ahmad — Custom Design Override
+   Target: AcademicPages (Minimal Mistakes fork)
+   Drop into: assets/css/custom.css
+   ============================================================= */
 
+/* ── Design Tokens ── */
+:root {
+  --paper:   #f7f5f0;
+  --paper2:  #edeae3;
+  --paper3:  #e3e0d8;
+  --rule:    #d4d0c8;
+  --ink:     #1a1a18;
+  --ink2:    #4a4a46;
+  --ink3:    #8a8a84;
+  --accent:  #2a5c8a;
+  --accent-dark: #1e4a72;
+  --accent2: #1d9e75;
+  --accent3: #c85a20;
+  --serif:   'EB Garamond', Georgia, 'Times New Roman', serif;
+  --sans:    'Inter', system-ui, sans-serif;
+  --mono:    'DM Mono', 'Courier New', monospace;
+}
+
+/* ── Global Reset Overrides ── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+body {
+  background-color: var(--paper) !important;
+  font-family: var(--serif) !important;
+  color: var(--ink) !important;
+}
+
+/* ── Masthead / Navigation ── */
+.masthead {
+  background-color: var(--paper) !important;
+  border-bottom: 1px solid var(--rule) !important;
+  box-shadow: none !important;
+}
+
+.masthead__inner-wrap {
+  font-family: var(--sans) !important;
+}
+
+.site-title {
+  font-family: var(--serif) !important;
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.01em !important;
+  text-transform: none !important;
+  color: var(--ink) !important;
+}
+
+.site-title:hover,
+.site-title:visited {
+  color: var(--ink) !important;
+  text-decoration: none !important;
+}
+
+.greedy-nav a,
+.masthead__menu-item a {
+  font-family: var(--sans) !important;
+  font-size: 0.72rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: var(--ink3) !important;
+  transition: color 0.15s ease;
+}
+
+.greedy-nav a:hover,
+.masthead__menu-item a:hover {
+  color: var(--ink) !important;
+  text-decoration: none !important;
+}
+
+/* Nav underline accent on hover/active */
+.greedy-nav .visible-links a:before {
+  background: var(--accent) !important;
+  height: 2px !important;
+}
+
+.greedy-nav .visible-links a:hover:before {
+  visibility: visible !important;
+  transform: scaleX(1) !important;
+}
+
+/* ── Sidebar / Author Profile ── */
+.sidebar {
+  background: transparent !important;
+}
+
+.sidebar.sticky {
+  top: 2rem !important;
+}
+
+.author__avatar {
+  display: block !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.author__avatar img {
+  border-radius: 50% !important;
+  border: 2px solid var(--rule) !important;
+  max-width: 80px !important;
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: cover !important;
+}
+
+.author__content {
+  background: var(--paper2) !important;
+  border: 1px solid var(--rule) !important;
+  border-radius: 4px !important;
+  padding: 1rem 1.1rem !important;
+}
+
+.author__name {
+  font-family: var(--serif) !important;
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  color: var(--ink) !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.author__bio {
+  font-family: var(--sans) !important;
+  font-size: 0.74rem !important;
+  color: var(--ink3) !important;
+  line-height: 1.5 !important;
+  margin-bottom: 0 !important;
+}
+
+.author__urls-wrapper {
+  margin-top: 0.75rem !important;
+}
+
+.author__urls-wrapper .btn {
+  font-family: var(--sans) !important;
+  font-size: 0.7rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  background: transparent !important;
+  border: 1px solid var(--rule) !important;
+  color: var(--ink2) !important;
+  border-radius: 2px !important;
+  padding: 0.35rem 0.8rem !important;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.author__urls-wrapper .btn:hover {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+  background: transparent !important;
+}
+
+.author__urls {
+  background: var(--paper2) !important;
+  border: 1px solid var(--rule) !important;
+  border-radius: 4px !important;
+  padding: 0.6rem 0.9rem !important;
+}
+
+.author__urls li {
+  border-bottom: 1px solid var(--rule) !important;
+  padding: 0.3rem 0 !important;
+}
+
+.author__urls li:last-child {
+  border-bottom: none !important;
+}
+
+.author__urls li a {
+  font-family: var(--sans) !important;
+  font-size: 0.74rem !important;
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  transition: color 0.12s;
+}
+
+.author__urls li a:hover {
+  color: var(--accent-dark) !important;
+}
+
+/* Location / employer meta */
+.author__urls .fa,
+.author__urls .fas,
+.author__urls .fab,
+.author__urls .far {
+  color: var(--ink3) !important;
+  width: 1rem !important;
+}
+
+/* ── Main Content Area ── */
+#main {
+  max-width: 1100px !important;
+}
+
+.page {
+  padding-top: 2.5rem !important;
+  padding-bottom: 3rem !important;
+}
+
+/* ── Page Title ── */
+.page__title,
+h1.page__title {
+  font-family: var(--serif) !important;
+  font-size: 2.1rem !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.01em !important;
+  color: var(--ink) !important;
+  border-bottom: 1px solid var(--rule) !important;
+  padding-bottom: 0.6rem !important;
+  margin-bottom: 1.6rem !important;
+  line-height: 1.2 !important;
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif) !important;
+  color: var(--ink) !important;
+}
+
+.page__content h2 {
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+  border-bottom: 1px solid var(--rule) !important;
+  padding-bottom: 0.35rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.page__content h3 {
+  font-family: var(--sans) !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: var(--ink3) !important;
+  margin-top: 1.8rem !important;
+  margin-bottom: 0.8rem !important;
+  border-bottom: none !important;
+}
+
+/* ── Body Text ── */
+.page__content p {
+  font-family: var(--serif) !important;
+  font-size: 1.05rem !important;
+  line-height: 1.78 !important;
+  color: var(--ink2) !important;
+  margin-bottom: 1rem !important;
+}
+
+.page__content p strong,
+.page__content p b {
+  font-weight: 500 !important;
+  color: var(--ink) !important;
+}
+
+.page__content p em,
+.page__content p i {
+  font-style: italic !important;
+}
+
+/* ── Lists — styled as label pills ── */
+.page__content ul {
+  padding-left: 0 !important;
+  list-style: none !important;
+}
+
+.page__content ul li {
+  font-family: var(--sans) !important;
+  font-size: 0.84rem !important;
+  color: var(--ink2) !important;
+  line-height: 1.5 !important;
+  padding: 0.42rem 0.85rem !important;
+  margin-bottom: 0.4rem !important;
+  background: var(--paper2) !important;
+  border-left: 3px solid var(--accent) !important;
+  border-radius: 0 3px 3px 0 !important;
+  transition: background 0.12s;
+}
+
+.page__content ul li:hover {
+  background: var(--paper3) !important;
+}
+
+.page__content ul li strong {
+  color: var(--ink) !important;
+  font-weight: 600 !important;
+}
+
+/* ── Links ── */
+a {
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  transition: color 0.12s;
+}
+
+a:hover {
+  color: var(--accent-dark) !important;
+  text-decoration: underline !important;
+}
+
+.page__content a {
+  border-bottom: 1px solid rgba(42, 92, 138, 0.3) !important;
+  text-decoration: none !important;
+}
+
+.page__content a:hover {
+  border-bottom-color: var(--accent) !important;
+  text-decoration: none !important;
+}
+
+/* ── Archive / Publication / Talk List Items ── */
+.archive__item {
+  border-bottom: 1px solid var(--rule) !important;
+  padding-bottom: 1.2rem !important;
+  margin-bottom: 1.2rem !important;
+}
+
+.archive__item:last-child {
+  border-bottom: none !important;
+}
+
+.archive__item-title {
+  font-family: var(--serif) !important;
+  font-size: 1.05rem !important;
+  font-weight: 500 !important;
+  color: var(--ink) !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.archive__item-title a {
+  color: var(--ink) !important;
+  border-bottom: none !important;
+  transition: color 0.12s;
+}
+
+.archive__item-title a:hover {
+  color: var(--accent) !important;
+}
+
+.archive__item-excerpt {
+  font-family: var(--sans) !important;
+  font-size: 0.78rem !important;
+  color: var(--ink3) !important;
+  line-height: 1.55 !important;
+  margin: 0 !important;
+}
+
+/* Year headers in publication lists */
+.list__item .archive__item-title {
+  font-size: 1rem !important;
+}
+
+/* ── CV / Table styles ── */
+table {
+  font-family: var(--sans) !important;
+  font-size: 0.85rem !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+
+table th {
+  font-family: var(--sans) !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.07em !important;
+  text-transform: uppercase !important;
+  color: var(--ink3) !important;
+  border-bottom: 1px solid var(--rule) !important;
+  padding: 0.5rem 0.75rem !important;
+  background: transparent !important;
+}
+
+table td {
+  color: var(--ink2) !important;
+  border-bottom: 1px solid var(--rule) !important;
+  padding: 0.55rem 0.75rem !important;
+}
+
+table tr:last-child td {
+  border-bottom: none !important;
+}
+
+/* ── Code blocks ── */
+code, pre, kbd {
+  font-family: var(--mono) !important;
+  font-size: 0.82rem !important;
+}
+
+code {
+  background: var(--paper2) !important;
+  border: 1px solid var(--rule) !important;
+  border-radius: 3px !important;
+  padding: 0.1em 0.35em !important;
+  color: var(--accent3) !important;
+}
+
+pre {
+  background: var(--paper2) !important;
+  border: 1px solid var(--rule) !important;
+  border-radius: 4px !important;
+  padding: 1rem !important;
+}
+
+pre code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: var(--ink) !important;
+}
+
+/* ── Buttons ── */
+.btn {
+  font-family: var(--sans) !important;
+  font-size: 0.74rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  border-radius: 2px !important;
+  transition: all 0.15s ease !important;
+}
+
+.btn--primary,
+.btn--inverse.btn--primary {
+  background: var(--accent) !important;
+  border-color: var(--accent) !important;
+  color: #fff !important;
+}
+
+.btn--primary:hover {
+  background: var(--accent-dark) !important;
+  border-color: var(--accent-dark) !important;
+  color: #fff !important;
+}
+
+.btn--inverse {
+  background: transparent !important;
+  border: 1px solid var(--rule) !important;
+  color: var(--ink) !important;
+}
+
+.btn--inverse:hover {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+  background: transparent !important;
+}
+
+/* ── Page footer ── */
+.page__footer {
+  background: var(--paper) !important;
+  border-top: 1px solid var(--rule) !important;
+  color: var(--ink3) !important;
+  margin-top: 3rem !important;
+}
+
+.page__footer footer {
+  font-family: var(--sans) !important;
+  font-size: 0.72rem !important;
+  color: var(--ink3) !important;
+}
+
+.page__footer a {
+  color: var(--accent) !important;
+  border-bottom: none !important;
+}
+
+.page__footer-follow .social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i {
+  color: var(--ink3) !important;
+}
+
+/* ── Page meta (date, read time etc.) ── */
+.page__meta {
+  font-family: var(--sans) !important;
+  font-size: 0.72rem !important;
+  color: var(--ink3) !important;
+  margin-bottom: 1.2rem !important;
+}
+
+/* ── Taxonomy / tag chips ── */
+.page__taxonomy .sep { color: var(--ink3) !important; }
+.page__taxonomy-item a {
+  font-family: var(--mono) !important;
+  font-size: 0.7rem !important;
+  color: var(--accent) !important;
+  background: rgba(42, 92, 138, 0.07) !important;
+  border: 1px solid rgba(42, 92, 138, 0.2) !important;
+  border-radius: 2px !important;
+  padding: 0.15rem 0.5rem !important;
+}
+
+/* ── Breadcrumb ── */
+.breadcrumbs {
+  font-family: var(--sans) !important;
+  font-size: 0.72rem !important;
+  color: var(--ink3) !important;
+}
+
+/* ── Blockquote ── */
+blockquote {
+  border-left: 3px solid var(--accent) !important;
+  background: var(--paper2) !important;
+  margin: 1.5rem 0 !important;
+  padding: 0.8rem 1.2rem !important;
+  border-radius: 0 3px 3px 0 !important;
+  font-family: var(--serif) !important;
+  font-style: italic !important;
+  color: var(--ink2) !important;
+}
+
+blockquote p {
+  margin: 0 !important;
+}
+
+/* ── HR / dividers ── */
+hr {
+  border: none !important;
+  border-top: 1px solid var(--rule) !important;
+  margin: 2rem 0 !important;
+}
+
+/* ── Notice boxes ── */
+.notice,
+.notice--primary,
+.notice--info,
+.notice--warning,
+.notice--success,
+.notice--danger {
+  font-family: var(--sans) !important;
+  font-size: 0.82rem !important;
+  border-radius: 3px !important;
+  border-left-width: 3px !important;
+}
+
+/* ── Talks map ── */
+.talkmap { border: 1px solid var(--rule) !important; border-radius: 4px !important; }
+
+/* ── Responsive tweaks ── */
+@media (max-width: 768px) {
+  .page__title, h1.page__title {
+    font-size: 1.7rem !important;
+  }
+  .page__content p {
+    font-size: 1rem !important;
+  }
+}
