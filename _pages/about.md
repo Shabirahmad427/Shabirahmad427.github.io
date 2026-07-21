@@ -14,15 +14,14 @@ My doctoral work investigates the **catalytic mechanism of glycoside hydrolase (
 
 ### Research interests
 
-- QM/MM simulations of enzyme active sites (pDynamo3, CP2K, AMBER/DFTB3)
+- QM/MM simulations of enzyme active sites (pDynamo3, AMBER/DFTB3)
 - Free-energy calculations: umbrella sampling, metadynamics, 2D PES scanning
 - Molecular dynamics of glycoside hydrolase enzymes (GH6 cellulases, CAZymes)
 - Loop dynamics, conformational transitions, and substrate recognition
-- Enhanced sampling with PLUMED and collective variable design
 
 ### Computational toolkit
 
-AMBER · GROMACS · CP2K · PLUMED · pDynamo3 · CHARMM36 · cpptraj · PyMOL · EasyHybrid · CHARMM-GUI · Python · HPC/SLURM
+AMBER · GROMACS · pDynamo3 · CHARMM36 · cpptraj · PyMOL · EasyHybrid · CHARMM-GUI · Python · HPC/SLURM
 
 ---
 
